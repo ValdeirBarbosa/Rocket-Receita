@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #eaeaea;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFF;
+    background: white;
+    width: 70%;
+    margin: 40px auto;
+    padding: 30px;
+    border-radius: 10px;
+    color: #39393A;
+    box-shadow: 4px 4px 10px #1e1e1e
+
+}
+header{
+    margin-bottom: 20px;
+}
+header h1{
+    text-align: center;
+    font-size: 28px;
+
+}
+header figure{
+    display: flex;
+    flex-direction: column;
+    width: auto;
+}
+header figure img{
+    width: 700px;
+    height: 300px;
+    border-radius: 20px;
+    object-fit: fill;
+    box-shadow: 4px 4px 10px #1e1e1e
+}
+header figcaption{
+    color: #8F8F8F;
+    font-size: small;
+    margin-top: 5px;
+    text-align: end;
+}
+
+main article section  h2, aside h2{
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+main article ul , main article ol{
+    list-style-position:inside
+}
+
+main article li{
+    margin-bottom: 25px;
+    font-size:16px;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 30px;
+    color: #8F8F8F;
+}
+footer p{
+    text-align: center;
+}
+
+footer p a {
+    text-decoration: none;
+    color: rgb(77, 13, 136);
+    font-weight: 700;
+}
+h1, h2{
+    color: #1B1B1B;
+}
